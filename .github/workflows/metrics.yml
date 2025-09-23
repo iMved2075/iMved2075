@@ -35,7 +35,7 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
+          plugin_achievements_threshold: X
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
@@ -84,5 +84,5 @@ jobs:
           plugin_wakatime_limit: 5
           plugin_wakatime_repositories_visibility: all
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_url: https://wakatime.com/
           plugin_wakatime_user: iMved2075
