@@ -27,7 +27,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: iMved@2075
+          user: iMved2075
           template: classic
           base: header, activity, community, repositories, metadata
           base_hireable: yes
