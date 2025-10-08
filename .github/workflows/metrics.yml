@@ -25,8 +25,7 @@ jobs:
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
-          wakatime: ${{ secrets.WAKATIME_API_KEY }}
+          token: ${{ secrets.METRICS_TOKEN }
 
           # Options
           user: iMved2075
@@ -76,12 +75,3 @@ jobs:
           plugin_repositories_pinned: 1
           plugin_repositories_random: 1
           plugin_repositories_starred: 1
-          plugin_traffic: yes
-          plugin_wakatime: yes
-          plugin_wakatime_days: 7
-          plugin_wakatime_limit: 5
-          plugin_wakatime_repositories_visibility: all
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: current
-          plugin_wakatime_token: wakatime
